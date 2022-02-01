@@ -100,6 +100,11 @@ public class MovePlayer : MonoBehaviour {
                 OSCHandler.Instance.SendMessageToClient("pd", "/unity/playseq", 0);
             }
 
+			if (count == 8)
+            {
+				OSCHandler.Instance.SendMessageToClient("pd", "/unity/done", 1);
+			}
+
         }
         else if(other.gameObject.CompareTag("Wall"))
         {
