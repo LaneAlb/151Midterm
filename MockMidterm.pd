@@ -105,7 +105,7 @@
 #X obj 1381 761 *~;
 #X obj 1366 576 mtof;
 #X obj 1359 285 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-1 1;
+0 1;
 #X floatatom 1452 291 5 0 0 0 - - -;
 #X floatatom 1366 605 5 0 0 0 - - -;
 #X obj 1381 720 +~;
@@ -291,8 +291,8 @@ I noticed that sometimes with mod 12 it may choose a 5 every so often.
 #X text 1410 1977 Click to reset to default volume;
 #X text 1415 2010 Click to mute;
 #X obj 957 2033 throw~ $output;
-#X text 864 831 Plays when all the balls are picked up;
 #X obj 848 865 r oscdone;
+#X text 864 831 Plays when all the squares are picked up;
 #X connect 6 0 28 0;
 #X connect 7 0 15 0;
 #X connect 7 1 20 0;
@@ -576,7 +576,7 @@ I noticed that sometimes with mod 12 it may choose a 5 every so often.
 #X connect 198 0 204 0;
 #X connect 200 0 197 0;
 #X connect 201 0 197 0;
-#X connect 206 0 125 0;
-#X connect 206 0 158 0;
-#X connect 206 0 107 0;
-#X connect 206 0 160 0;
+#X connect 205 0 125 0;
+#X connect 205 0 158 0;
+#X connect 205 0 107 0;
+#X connect 205 0 160 0;
